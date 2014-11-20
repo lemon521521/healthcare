@@ -1,0 +1,19 @@
+<body id="body" class="body">
+    <!--<![endif]-->
+<div class="navbar">
+   <div class="navbar-inner">
+   		<ul class="nav pull-right">
+			<li class="doSidebarClz"><a href="#" class="hidden-phone visible-tablet visible-desktop" role="button">
+			关闭侧栏<i class="icon-step-backward"></i></a></li>
+			<li id="fat-menu" class="dropdown">
+			<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+			<i class="icon-user"></i> {$Think.session.account_name} <i class="icon-caret-down"></i></a>
+	         <ul class="dropdown-menu">
+	             <li><a tabindex="-1" href="__APP__/User/profile/{$Think.session.account_id}">我的账号</a></li>
+	             <li><a tabindex="-1" href="__APP__/Login/loginOut">登出</a></li>
+	         </ul>
+	         </li>
+         </ul>
+         <a class="brand" href="#"><span class="first"></span> <span class="second">后台管理系统</span></a>
+   </div>
+</div>
