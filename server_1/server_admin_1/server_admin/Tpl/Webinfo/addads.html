@@ -1,0 +1,79 @@
+<include file="Public:header" />
+<include file="Public:navibar" />
+<include file="Public:sidebar" />
+<div id="content" class="content">
+        
+        <div class="header">
+            <div class="stats">
+			<p class="stat"><!--span class="number"></span--></p>
+			</div>
+
+            <h1 class="page-title">新增广告</h1>
+        </div>
+        
+		<ul class="breadcrumb">
+						<li><a href="__URL__/ads"> 广告列表 </a> <span class="divider">/</span></li>
+			<li class="active">编辑内容</li>
+        </ul>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="bb-alert alert alert-info" style="display: none;">
+			<span>操作成功</span>
+		</div>
+<!-- START 以上内容不需更改，保证该TPL页内的标签匹配即可 -->
+<div class="well">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">请填写内容信息</a></li>
+    </ul>	
+	
+	<div id="myTabContent" class="tab-content">
+		  <div class="tab-pane active in" id="home">
+
+           <form id="tab" method="post" action="__URL__/add" autocomplete="off">
+				<label>主题</label>
+				<input type="text" autofocus="true" required="true" class="input-xlarge" value="" name="title">
+				<label>详情地址</label>
+				<input type="url"  class="input-xlarge" value="" name="url">(http://开头的地址)
+				<label>选择广告位</label>
+				<select name="types">
+					<option value=2>首页中间横幅广告</option>
+					<option value=3>项目广告</option>
+					<option value=4>医院广告</option>
+				</select>				
+				<label>广告图片</label>
+				<input type="text" id="url3" name="img" value="" /> <input type="button" id="image3" value="选择图片" />
+				<label>排序</label>
+				<input type="number" name="sort" value="0" >(数值越大越靠前，请添整数)
+				<div class="btn-toolbar">
+				<button type="submit" class="btn btn-primary"><strong>提交</strong></button>
+				<div class="btn-group"></div>
+			</div>
+			</form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+	KindEditor.ready(function(K) {
+		var editor = K.editor({
+			cssPath : '__PUBLIC__/editor/plugins/code/prettify.css',
+			uploadJson : '__PUBLIC__/editor/php/upload_json.php',
+			fileManagerJson : '__PUBLIC__/editor/php/file_manager_json.php',
+			allowFileManager : true
+		});
+		K('#image3').click(function() {
+			editor.loadPlugin('image', function() {
+				editor.plugin.imageDialog({
+					showRemote : false,
+					imageUrl : K('#url3').val(),
+					clickFn : function(url, title, width, height, border, align) {
+						K('#url3').val(url);
+						editor.hideDialog();
+					}
+				});
+			});
+		});
+	});
+});
+</script>
+<include file="Public:footer" />

@@ -1,0 +1,69 @@
+<include file="Public:header" />
+<include file="Public:navibar" />
+<include file="Public:sidebar" />
+<div id="content" class="content">
+        
+        <div class="header">
+            <div class="stats">
+			<p class="stat"><!--span class="number"></span--></p>
+			</div>
+
+            <h1 class="page-title">编辑SEO信息</h1>
+        </div>
+        
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="bb-alert alert alert-info" style="display: none;">
+			<span>操作成功</span>
+		</div>
+<!-- START 以上内容不需更改，保证该TPL页内的标签匹配即可 -->
+
+<script type="text/javascript" >
+$(function(){
+	$('#config-type').change(function(){
+		var type = $(this).val();
+		window.location.href = "__URL__/addIndex/type_id/"+type;
+	});
+});
+</script>
+
+    
+<div class="well">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">请填写SEO信息</a></li>
+    </ul>	
+	
+	<div id="myTabContent" class="tab-content">
+		  <div class="tab-pane active in" id="home">
+
+           <form id="tab" method="post" action="__URL__/add" autocomplete="off">
+				<input type="hidden" value="{$info.id}" name="id" />
+				<if condition="!$config"><input type="hidden" value="{$type}" name="type" /></if>
+				<input type="hidden" value="{$perid}" name="per_id" />
+				<if condition="$type eq 1"> <label>标题：</label>
+				<input type="text" name="title" value="{$info.title}" class="input-xlarge" autofocus="true" required="true" >
+				<span class='info'>如果不设置则默认为首页标题+当前浏览内容的标题（首页必须设置）</span>
+				</if>
+				<if condition="$config">
+				<label>选择发布栏目</label>
+				<select name="type" id="config-type">
+					<foreach key="k" item="vo" name="config">
+						<option <if condition="$k eq $type" >selected</if> value="{$k}" >{$vo}</option>
+					</foreach>
+				</select>
+				</if>
+				<label>keyword：</label>
+				<TEXTAREA rows="6" name="keyword" cols="8">{$info.keyword}</TEXTAREA>
+				<span class='info'>如果不设置则默认为首页的设置</span>
+				<label>description：</label>
+				<TEXTAREA rows="6" name="des" cols="8">{$info.des}</TEXTAREA>
+				<span class='info'>如果不设置则默认为首页的设置</span>
+			<div class="btn-toolbar">
+				<button type="submit" class="btn btn-primary"><strong>提交</strong></button>
+				<div class="btn-group"></div>
+			</div>
+			</form>
+        </div>
+    </div>
+</div>
+<include file="Public:footer" />

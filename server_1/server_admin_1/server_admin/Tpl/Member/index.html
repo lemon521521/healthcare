@@ -1,0 +1,115 @@
+<include file="Public:header" />
+<include file="Public:navibar" />
+<include file="Public:sidebar" />
+
+ <div id="content" class="content">
+        
+        <div class="header">
+            <div class="stats">
+			<!--<p class="stat">span class="number"></span</p>-->
+			</div>
+
+            <h1 class="page-title">会员列表</h1>
+        </div>
+        
+		<ul class="breadcrumb">
+			<li class="active">会员列表</li>
+        </ul>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="bb-alert alert alert-info" style="display: none;">
+			<span>操作成功</span>
+		</div>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+<div style="border:0px;padding-bottom:5px;height:auto">
+	<form action="__APP__/Member/index" method="POST" style="margin-bottom:0px">
+ <div style="float:left;margin-right:5px">
+		<label>会员名称，查询所有会员请留空</label>
+		<input type="text" name="name" value="" placeholder="输入会员名称" > 
+	</div>
+		<div class="btn-toolbar" style="padding-top:25px;padding-bottom:0px;margin-bottom:0px">
+		<button type="submit" class="btn btn-primary"><strong>确定</strong></button>
+	</div>
+	<div style="clear:both;"></div>
+	</form>
+</div>
+<!-- search END -->
+    <div class="block">
+        <a href="#page-stats" class="block-heading" data-toggle="collapse">会员列表</a>
+        <div id="page-stats" class="block-body collapse in">
+               <table class="table table-striped">
+              <thead>
+                <tr>
+					<th style="width:80px">会员ID</th>
+					<th style="width:80px">昵称</th>
+					<th style="width:120px">邮箱</th>
+					<th style="width:50px">手机</th>
+					<th style="width:50px">真实姓名</th>
+					<th style="width:50px">性别</th>
+					<th style="width:100px">生日</th>
+					<th style="width:150px">注册时间</th>
+					<!--<th style="width:80px">操作</th>-->
+                </tr>
+              </thead>
+              <tbody>	
+              <volist name="result_list" id="result_list">
+              <tr>
+              	<td>{$result_list.id}</td>
+              	<td>{$result_list.name}</td>
+              	<td>{$result_list.email}</td>
+              	<td>{$result_list.mobile}</td>
+              	<td>{$result_list.relname}</td>
+              	<td><if condition="$result_list.sexy eq 0">女<else/>男</if></td>
+              	<td>{$result_list.birthday}</td>
+              	<td>{$result_list.createtime}</td>
+              <!--<td>
+     			<a href="__APP__/Order/detail/trade_no/{$result_list.trade_no}" >查看详情</a>
+			</td>-->	
+			</tr>			
+              </volist>				  
+              </tbody>
+            </table> 
+            <div class="pagination"><ul>{$page}</ul></div>
+        </div>
+    </div>
+
+<!---操作的确认层，相当于javascript:confirm函数--->
+<script>
+				$('.icon-pause').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+					
+				
+				$('.icon-play').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+					
+				
+				$('.icon-remove').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+					
+				</script>
+<include file="Public:footer" />

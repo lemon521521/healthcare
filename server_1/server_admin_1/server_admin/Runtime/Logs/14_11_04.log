@@ -1,0 +1,405 @@
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.000717s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000789s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000589s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000637s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.001262s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001344s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | NOTIC: [8] Undefined variable: message dc3f4348b92bb672ad42baef1f696288.php 第 84 行.
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.024887s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024942s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.000599s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.000705s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000464s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002581s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000613s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000667s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.000855s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.000938s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000960s ]
+[ 2014-11-04T10:59:12+08:00 ] /index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001038s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.001568s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001651s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000775s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000844s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000834s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.008921s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009049s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000716s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.000544s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000362s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.003094s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004915s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000447s ]
+[ 2014-11-04T10:59:25+08:00 ] /index.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000494s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run CheckRoute Behavior [ RunTime:0.001777s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001939s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001349s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | SQL: SHOW COLUMNS FROM `physician` [ RunTime:0.005479s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `physician` where status=2 order by `insert_time` desc [ RunTime:0.005831s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000836s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000895s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run ParseTemplate Behavior [ RunTime:0.019299s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019364s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run ContentReplace Behavior [ RunTime:0.000534s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run TokenBuild Behavior [ RunTime:0.000440s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000309s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000475s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001900s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001587s ]
+[ 2014-11-04T10:59:31+08:00 ] /index.php/Physician/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001650s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001036s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000730s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000801s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.005229s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `hospital` where status=2 order by `insert_time` desc [ RunTime:0.006190s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.005176s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from hospital_physician_index where 1   and hospital_id=3 [ RunTime:0.004285s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004933s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '1' [ RunTime:0.004548s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.025944s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '2' [ RunTime:0.004346s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004904s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from hospital_physician_index where 1   and hospital_id=2 [ RunTime:0.007458s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004785s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '1' [ RunTime:0.004726s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004753s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '2' [ RunTime:0.014168s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001563s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001686s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021133s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021273s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run ContentReplace Behavior [ RunTime:0.001779s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run TokenBuild Behavior [ RunTime:0.000580s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000441s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000543s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003550s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000520s ]
+[ 2014-11-04T10:59:36+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000574s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run CheckRoute Behavior [ RunTime:0.000753s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000822s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000643s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000692s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004861s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where 1 order by insert_time desc [ RunTime:0.309031s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [2] Missing argument 1 for HospitalAction::country(), called in D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Action\HospitalAction.class.php on line 67 and defined HospitalAction.class.php 第 187 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004972s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `base_geography_area` where 1 [ RunTime:0.006102s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 193 行.
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001353s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001442s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run ParseTemplate Behavior [ RunTime:0.030498s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030603s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run ContentReplace Behavior [ RunTime:0.001052s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run TokenBuild Behavior [ RunTime:0.000931s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000883s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003755s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000840s ]
+[ 2014-11-04T11:00:17+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000921s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000831s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000496s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000545s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006673s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( `is_del` = 0 ) LIMIT 1   [ RunTime:0.004641s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: SELECT * FROM `product` WHERE ( `is_del` = 0 ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.006684s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 177 行.
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 177 行.
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 177 行.
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.013418s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006205s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `product` where is_del=0 order by `id` desc [ RunTime:0.025589s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001638s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001748s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | NOTIC: [8] Undefined index: hospital_name e2da2d048bfd7d0b1b5f4ff882638740.php 第 152 行.
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run ParseTemplate Behavior [ RunTime:0.015709s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015779s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run ContentReplace Behavior [ RunTime:0.000549s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run TokenBuild Behavior [ RunTime:0.000505s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000306s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000475s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001979s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000433s ]
+[ 2014-11-04T11:31:16+08:00 ] /index.php/Product/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000483s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000935s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000589s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000637s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.005279s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `hospital` where status=2 order by `insert_time` desc [ RunTime:0.006174s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004695s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from hospital_physician_index where 1   and hospital_id=3 [ RunTime:0.004068s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.005428s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '1' [ RunTime:0.004562s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.025940s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '2' [ RunTime:0.004757s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004838s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from hospital_physician_index where 1   and hospital_id=2 [ RunTime:0.004614s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.006094s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '1' [ RunTime:0.005564s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.004994s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where id = '2' [ RunTime:0.004786s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001753s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001880s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021935s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022056s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run ContentReplace Behavior [ RunTime:0.001273s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run TokenBuild Behavior [ RunTime:0.001209s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000799s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001130s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004727s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001065s ]
+[ 2014-11-04T11:31:18+08:00 ] /index.php/Hospital/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001169s ]
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Run CheckRoute Behavior [ RunTime:0.001686s ]
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001833s ]
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001710s ]
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001802s ]
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T11:31:19+08:00 ] /index.php/Hospital/add | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.015021s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from physician where 1 order by insert_time desc [ RunTime:0.630670s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [2] Missing argument 1 for HospitalAction::country(), called in D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Action\HospitalAction.class.php on line 72 and defined HospitalAction.class.php 第 192 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.005414s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `base_geography_area` where 1 [ RunTime:0.005710s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | NOTIC: [8] Undefined variable: id HospitalAction.class.php 第 198 行.
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001494s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001601s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run ParseTemplate Behavior [ RunTime:0.020525s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020670s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run ContentReplace Behavior [ RunTime:0.001622s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run TokenBuild Behavior [ RunTime:0.001483s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000898s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001165s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005520s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001106s ]
+[ 2014-11-04T11:31:20+08:00 ] /index.php/Hospital/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001207s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run CheckRoute Behavior [ RunTime:0.000741s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000846s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000474s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000524s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 2 行.
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 2 行.
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | SQL: SHOW COLUMNS FROM `physician` [ RunTime:0.005490s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `physician` where status=2 order by `insert_time` desc [ RunTime:0.005953s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001727s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001880s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021092s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021216s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run ContentReplace Behavior [ RunTime:0.001057s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run TokenBuild Behavior [ RunTime:0.001112s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000830s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001995s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005254s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.006315s ]
+[ 2014-11-04T13:13:13+08:00 ] /index.php/Physician/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.006386s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run CheckRoute Behavior [ RunTime:0.000864s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000936s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000727s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000853s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000922s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run ParseTemplate Behavior [ RunTime:0.008212s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008283s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run ContentReplace Behavior [ RunTime:0.000581s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run TokenBuild Behavior [ RunTime:0.000568s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000389s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000551s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002237s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000713s ]
+[ 2014-11-04T13:13:17+08:00 ] /index.php/Physician/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000766s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run CheckRoute Behavior [ RunTime:0.001881s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.002028s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001264s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001374s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000899s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000972s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run ParseTemplate Behavior [ RunTime:0.008644s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008735s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run ContentReplace Behavior [ RunTime:0.000821s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run TokenBuild Behavior [ RunTime:0.000812s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000573s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000891s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003342s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000637s ]
+[ 2014-11-04T13:22:05+08:00 ] /index.php/Physician/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000707s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run CheckRoute Behavior [ RunTime:0.001133s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001213s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000614s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000734s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006094s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( `is_del` = 0 ) LIMIT 1   [ RunTime:0.004261s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: SELECT * FROM `product` WHERE ( `is_del` = 0 ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.006596s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) BaseModel.class.php 第 177 行.
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::delete() should be compatible with Model::delete($options = Array) BaseModel.class.php 第 177 行.
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | NOTIC: [2048] Declaration of BaseModel::select() should be compatible with Model::select($options = Array) BaseModel.class.php 第 177 行.
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005764s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: SHOW COLUMNS FROM `product` [ RunTime:0.040945s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | SQL: /*D:\wamp\www\shenyh\shop\trunk\server_1\server_admin_1\server_admin\Lib\Model\BaseModel.class.php,121*/select * from `product` where is_del=0 order by `id` desc [ RunTime:0.006544s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_template ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000775s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000839s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_parse ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | NOTIC: [8] Undefined index: hospital_name e2da2d048bfd7d0b1b5f4ff882638740.php 第 152 行.
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run ParseTemplate Behavior [ RunTime:0.011774s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011830s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_filter ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run ContentReplace Behavior [ RunTime:0.000529s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run TokenBuild Behavior [ RunTime:0.000487s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001341s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000596s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003125s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_end ] --START--
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000461s ]
+[ 2014-11-04T13:22:07+08:00 ] /index.php/Product/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000511s ]

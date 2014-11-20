@@ -1,0 +1,162 @@
+<include file="Public:header" />
+<include file="Public:navibar" />
+<include file="Public:sidebar" />
+
+ <div id="content" class="content">
+        
+        <div class="header">
+            <div class="stats">
+			<!--<p class="stat">span class="number"></span</p>-->
+			</div>
+
+            <h1 class="page-title">图片列表</h1>
+        </div>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="bb-alert alert alert-info" style="display: none;">
+			<span>操作成功</span>
+		</div>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<div class="btn-toolbar" style="margin-bottom:2px;">
+    <a href="__APP__/Product/edit/id/{$pid}" class="btn btn-primary"><i class="icon-plus"></i>编辑产品(PS:可上传图片哦)</a>
+</div>
+    <div class="block">
+        <a href="#page-stats" class="block-heading" data-toggle="collapse">产品图片列表</a>
+        <div id="page-stats" class="block-body collapse in">
+               <table class="table table-striped">
+              <thead>
+                <tr>
+					<th style="width:100px">产品图片</th>
+					<th style="width:100px">产品图片名称</th>
+					<th style="width:100px">产品图片类型</th>
+					<th style="width:100px">产品图片位置</th>
+					<th style="width:180px">操作</th>
+                </tr>
+              </thead>
+              <tbody>	
+              <volist name="PicturetList" id="PicturetList">
+              <tr>
+
+              <input type="hidden" id="pro_id" name="product_id" value="{$pid}">
+              
+              	<td><img src="{$PicturetList.url}" height="100px" width="100px" ></td>
+              	<td>{$PicturetList.name}</td>
+              	<td>{$PicturetList.select}</td> 
+              	<td>{$PicturetList.sort_select}</td>                                         	
+              <td>
+				<a class="btn" href="__URL__/pic_del/id/{$PicturetList.id}" title= "删除" >删除</a>
+			<input type="submit"  class="btn sub"  value="修改图片名称" pic_id="{$PicturetList.id}"  pic_name="{$PicturetList.name}" product_id="{$pid}"/>
+			</td>	
+			</tr>			
+              </volist>	
+             			  
+              </tbody>
+            </table> 
+        </div>
+    </div>
+    
+    <div style="display:none">
+ <div id="sid" style="height:500px;width:300px;">
+ <form method="post" action="__URL__/pic_eidtname" >
+ <label>产品图片名称</label>			
+<input type="text" id="pic_name" name="name" value="" class="input-xlarge" autofocus="true" required="true">
+<input type="hidden" id="pic_id" name="pic_id" value="" />
+<input type="hidden" id="product_id" name="product_id" value="" />
+<input type="submit" value="修改图片名称"  />
+</form>
+<div style="margin-left:audo;vertical-align:middle;">
+
+</div>
+              </div>
+              </div>         
+<!---操作的确认层，相当于javascript:confirm函数--->
+<script>
+
+				$('.icon-pause').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+					
+				
+				$('.icon-play').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+					
+				
+				$('.icon-remove').click(function(){
+						
+						var href=$(this).attr('href');
+						bootbox.confirm('确定要这样做吗？', function(result) {
+							if(result){
+
+								location.replace(href);
+							}
+						});		
+					})
+				$(".type").change(function (){
+					var id=$(this).attr("select_id");					
+					var type=$(this).val();
+					$.ajax({
+						url:'__APP__/Product/ajax_pic_eidt/id/'+id+'/type/'+type,
+						type:'get',		
+						dataType:'json',							
+						success:function(data){
+							if(data==1){
+								var product_id=$("#pro_id").val();
+								var url='__APP__/Product/pic_edit/id/'+product_id;
+								alert("图片类型修改成功");
+								location.replace(url);						
+							}else{
+								alert("图片类型修改失败");
+							}
+						}
+					})  
+				})
+					$(".sort").change(function (){
+					var id=$(this).attr("sort_select_id");					
+					var sort=$(this).val();
+					$.ajax({
+						url:'__APP__/Product/ajax_pic_sort/id/'+id+'/order_sort/'+sort,
+						type:'get',		
+						dataType:'json',							
+						success:function(data){
+							if(data==1){
+								var product_id=$("#pro_id").val();
+								var url='__APP__/Product/pic_edit/id/'+product_id;
+								alert("图片位置修改成功");
+								location.replace(url);						
+							}else{
+								alert("图片位置修改成功");
+							}
+						}
+					})  
+				})
+					$(".btn.sub").click(function(){						
+						var pic_id=$(this).attr("pic_id");						
+						var pic_name=$(this).attr("pic_name");
+						var product_id=$(this).attr("product_id");					
+						$("#pic_name").val(pic_name);
+						$("#pic_id").val(pic_id);
+						$("#product_id").val(product_id);
+						$.colorbox({inline:true,width:'40%',height:'40%',href:"#sid", close: true, escKey:false});						
+				
+						
+					}) 
+					
+				</script>
+<include file="Public:footer" />
