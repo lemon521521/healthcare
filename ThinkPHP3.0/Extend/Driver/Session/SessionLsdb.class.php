@@ -1,3 +1,0 @@
-<?php
-import("@.Com.SessionLsdb");
-?>
